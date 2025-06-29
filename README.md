@@ -80,3 +80,23 @@ Non-functional requirements define the quality attributes of the system, such as
 - **Usability**: The booking interface should be user-friendly, allowing users to complete a booking in no more than three steps.
 - **Security**: User data must be encrypted, and the system should comply with industry standards for data protection.
 - **Availability**: The system should be available 99.9% of the time, with scheduled maintenance windows communicated in advance.
+
+# Use Case Diagrams
+
+## What are Use Case Diagrams?
+
+Use Case Diagrams are a type of behavioral diagram in Unified Modeling Language (UML) that represent the interactions between users (actors) and the system to achieve specific goals (use cases). They provide a visual overview of the functional requirements of the system, illustrating how different actors interact with various system functionalities.
+
+## Benefits of Use Case Diagrams
+
+1. **Visual Representation**: Use Case Diagrams provide a clear visual representation of how users will interact with the system, making it easier to understand the overall behavior.
+
+2. **Simplified Communication**: These diagrams serve as a communication tool among stakeholders, helping to bridge the gap between technical and non-technical team members.
+
+3. **Identifying Requirements**: By mapping out interactions, Use Case Diagrams help in identifying functional requirements that may need to be addressed during development.
+
+4. **Scope Definition**: They help define the scope of the project by outlining what functionalities will be included, thereby preventing scope creep.
+
+5. **User-Centric Focus**: Use Case Diagrams emphasize the user perspective, ensuring that the system is designed to meet the needs of its users.
+
+6. **Facilitates Validation**: They can be used to validate requirements with stakeholders to ensure that the system meets user needs and expectations.

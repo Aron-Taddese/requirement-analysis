@@ -100,3 +100,35 @@ Use Case Diagrams are a type of behavioral diagram in Unified Modeling Language 
 5. **User-Centric Focus**: Use Case Diagrams emphasize the user perspective, ensuring that the system is designed to meet the needs of its users.
 
 6. **Facilitates Validation**: They can be used to validate requirements with stakeholders to ensure that the system meets user needs and expectations.
+
+# Acceptance Criteria
+
+## Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria are predefined conditions that a software product must meet to be accepted by the stakeholders. They serve as a guide for the development team to understand what is expected from a feature and provide a clear basis for testing. The importance of Acceptance Criteria includes:
+
+1. **Clarity**: They provide detailed explanations of what is required for a feature to be considered complete, reducing ambiguity.
+
+2. **Validation**: Acceptance Criteria help in validating the functionality against the requirements, ensuring that the developed feature meets user expectations.
+
+3. **Testing Framework**: They outline the basis for testing, allowing testers to create test cases that are aligned with user needs.
+
+4. **Communication**: Acceptance Criteria facilitate better communication among stakeholders, developers, and testers, ensuring everyone is on the same page regarding feature requirements.
+
+5. **Scope Management**: By clearly defining what is included and excluded, Acceptance Criteria help manage project scope and prevent scope creep.
+
+## Example of Acceptance Criteria for Checkout Feature
+
+### Checkout Feature Acceptance Criteria:
+
+1. **Payment Options**: Users must be able to select from at least three payment options (credit card, debit card, and PayPal).
+
+2. **Order Summary**: An order summary must be displayed on the checkout page, including item details, quantities, prices, and total cost.
+
+3. **Validation Messages**: If required fields (e.g., billing address, payment information) are not filled out, appropriate validation messages must be shown.
+
+4. **Successful Payment**: After payment is processed successfully, users should receive a confirmation message and an email detailing their order.
+
+5. **Cancellation Option**: Users should have the ability to cancel their order within 15 minutes of completing the checkout process.
+
+6. **Security Compliance**: All payment transactions must comply with PCI DSS (Payment Card Industry Data Security Standard) for secure processing.

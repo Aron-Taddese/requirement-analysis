@@ -56,3 +56,27 @@ In this phase, the documented requirements are analyzed to identify any inconsis
 ## 5. Requirement Validation
 
 Requirement validation is the process of ensuring that the documented requirements accurately reflect the stakeholders' needs and are complete. This involves reviewing the requirements with stakeholders, conducting walkthroughs, and obtaining formal approval. Validation helps to confirm that the requirements are understood and agreed upon, reducing the risk of misunderstandings and ensuring a smoother development process.
+
+# Types of Requirements
+
+## 1. Functional Requirements
+
+Functional requirements specify what the system should do and describe the behavior of the system in terms of functionalities. These requirements focus on user interactions and system responses.
+
+### Examples for Booking Management Project:
+- **User Registration**: Users must be able to register for an account by providing their email, password, and personal details.
+- **Booking Creation**: Users should be able to create a new booking by selecting the desired date, time, and location.
+- **Payment Processing**: The system must allow users to make payments through credit cards, debit cards, or online payment gateways.
+- **Booking Cancellation**: Users should have the option to cancel their bookings up to 24 hours before the scheduled time.
+- **Booking Confirmation**: Once a booking is made, the system must send a confirmation email to the user with booking details.
+
+## 2. Non-functional Requirements
+
+Non-functional requirements define the quality attributes of the system, such as performance, usability, reliability, and security. These requirements describe how the system performs its functions rather than what functions it performs.
+
+### Examples for Booking Management Project:
+- **Performance**: The system should be able to handle up to 1,000 concurrent users without degrading performance.
+- **Scalability**: The system must be designed to scale to accommodate future growth in user base and data volume.
+- **Usability**: The booking interface should be user-friendly, allowing users to complete a booking in no more than three steps.
+- **Security**: User data must be encrypted, and the system should comply with industry standards for data protection.
+- **Availability**: The system should be available 99.9% of the time, with scheduled maintenance windows communicated in advance.
